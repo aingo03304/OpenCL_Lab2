@@ -1,7 +1,7 @@
 
 NVCC=nvcc
-INCLUDE= -I../../libgputk
-LIBgpuTK= -L../../build -lgputk -lcuda
+INCLUDE= -I../libgputk
+LIBgpuTK= -L../build -lgputk -lcuda
 LIBS= -lOpenCL $(LIBgpuTK)
 
 all: template
